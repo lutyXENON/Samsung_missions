@@ -7,17 +7,17 @@ public class mission4 {
             count++;
             n /= 10;
         }
-        return ((int) Math.pow(10, count));
+        return ((int) Math.pow(10, count - 1));
     }
 
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        int input = in.nextInt();
+        int n = in.nextInt();
         String ans = "";
-        while (input != 0) {
+        for (int i = 0; i < n; i++) {
+            int input = in.nextInt();
             Integer str = input / digits_in_number(input);
             ans += str.toString();
-            input = in.nextInt();
         }
         System.out.println(ans);
     }
