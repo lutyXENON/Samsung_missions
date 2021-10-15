@@ -1,6 +1,9 @@
+import java.util.Scanner;
+
 public class mission1 {
     public static void main(String[] args) {
-        System.out.println("Hi!");
-        System.out.println("Double Hi!");
+        Scanner in = new Scanner(System.in);
+        int n = in.nextInt();
+        System.out.println((int) Math.sqrt(n));
     }
 }
