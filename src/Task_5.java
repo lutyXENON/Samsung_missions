@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class mission5 {
+public class Task_5 {
     public static int digits_in_number(int n) {
         int count = 0;
         while (n > 0) {
