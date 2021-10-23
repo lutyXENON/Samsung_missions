@@ -1,3 +1,5 @@
+package hw_2021_10_17;
+
 import java.util.Scanner;
 // first java mission!
 public class Task_1 {

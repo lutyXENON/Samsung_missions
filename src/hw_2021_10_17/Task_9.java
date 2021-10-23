@@ -1,3 +1,5 @@
+package hw_2021_10_17;
+
 import java.util.Objects;
 import java.util.Scanner;
 
